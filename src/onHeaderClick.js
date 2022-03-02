@@ -1,4 +1,5 @@
 export default function onHeaderClick(id) {
     let object = document.getElementById(id).getBoundingClientRect();
-    return window.scrollTo(0,object.top);
+    let tillTitle = object.top - object.height;
+    return window.scrollBy(0,tillTitle);
 } 
