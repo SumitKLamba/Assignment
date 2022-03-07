@@ -15,6 +15,7 @@ ul {
 
 header {
   background-color: orange;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   position: sticky;
   top: 0;
   left: 0;
@@ -23,4 +24,7 @@ header {
 button {
   border: 0ch;
   background-color: transparent;
+  color: white;
+  font-weight: 500;
+  font-size: medium;
 }

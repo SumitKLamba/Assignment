@@ -1,13 +1,9 @@
-article {
+.card {
     border-style: solid;
     border-color: orange;
     margin: 0;
     width: 20em;
-}
-
-h5 {
-    margin: 0.4em;
-}
+}        
 
 ul {
     flex-wrap: wrap;

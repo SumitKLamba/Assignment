@@ -1,5 +1,5 @@
 import './Sections.css';
-import Blogs from '../blogs/Blogs.js';
+import Blogs from '../blogs/Blogs.jsx';
 
 export default function Sections(props) {
     const {title, num, id} = props;
