@@ -28,15 +28,10 @@ function App() {
         </ul>
       </header>
       <section>
-        {/* 
-          id here is used to give a name to scroll to that postion on click by the onHeaderClick function above 
-          title is the name that would appear on screen, best if it matches the button names above
-          num is the amount of blogs that we want it to have
-        */}
-        <Sections id="trending" title="Trending" num="10" /> 
-        <Sections id="popular" title="Most Popular" num="20" />
-        <Sections id="viewed" title="Most Viewed" num="15" />
-        <Sections id="choice" title="Your Choice" num="20" />
+        <Sections id="trending" title="Trending" /> 
+        <Sections id="popular" title="Most Popular" />
+        <Sections id="viewed" title="Most Viewed" />
+        <Sections id="choice" title="Your Choice" />
       </section>
     </div>
   );
