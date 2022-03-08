@@ -1,5 +1,7 @@
 export default function Blogs(props) {
   const {key, blog} = props;
+
+  console.log(blog);
   
   return (
     <li>
