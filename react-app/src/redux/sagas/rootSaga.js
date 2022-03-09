@@ -1,4 +1,4 @@
-import { takeLatest, takeEvery } from "redux-saga/effects";
+import { takeLatest } from "redux-saga/effects";
 import { handleGetBlog } from "./handlers/blogs";
 import { LOAD_BLOG_LOADING } from "../reducers/blogs";
 

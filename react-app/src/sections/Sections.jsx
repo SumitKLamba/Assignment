@@ -13,16 +13,16 @@ export default function Sections(props) {
 
     useEffect(()=>{
         dispatch(loadBlog());
-      },[1]);
+      },[dispatch]);
 
     return (
-        <>
-        <h2 id={id}>{title}</h2>,
+        <div className={`${title}`}>
+        <h2 id={`${id}`}>{title}</h2>,
         <ul>
             {loading ? <p>Loading...</p> : error ? <p>{error}</p> : blogs.length === 0 ? <p>No blogs available!</p> : blogs.map((blog) => (
                 <Blogs blog={blog} />
             ))}
         </ul>
-        </>
+        </div>
     );
 }

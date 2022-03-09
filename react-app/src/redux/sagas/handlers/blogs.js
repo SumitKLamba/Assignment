@@ -1,5 +1,4 @@
 import { call, put } from "redux-saga/effects";
-import { loadBlog } from "../../reducers/blogs";
 import { LOAD_BLOG_ERROR, LOAD_BLOG_SUCCESS } from '../../reducers/blogs'
 import { requestGetBlog } from "../requests/index";
 
