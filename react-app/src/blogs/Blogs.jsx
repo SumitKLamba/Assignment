@@ -6,7 +6,7 @@ export default function Blogs(props) {
   return (
     <li>
         <section class="card">
-            <img class="blog-img" src={blog.thumbnail} alt="Blog Image"/>
+            <img class="blog-img" src={blog.image} alt="Blog Image"/>
             <div class="text-overlay">
                 <h3>{blog.title}</h3>
                 <p>{blog.description}</p>
