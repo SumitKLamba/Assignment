@@ -7,7 +7,7 @@ import { loadBlog } from "../redux/reducers/blogs";
 export default function Sections(props) {
     const {title, id} = props;
     const dispatch = useDispatch();
-    const blogs = useSelector(state => state.blogs.blog.products);
+    const blogs = useSelector(state => state.blogs.blogs);
     const loading = useSelector(state => state.blogs.loading);
     const error = useSelector(state => state.blogs.error);
 

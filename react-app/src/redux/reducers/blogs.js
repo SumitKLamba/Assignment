@@ -9,7 +9,7 @@ export const loadBlog = () => {
 };
 
 const initialState = {
-  blog: {},
+  blogs: {},
   loading: true,
   error: ''
 };
@@ -26,7 +26,7 @@ export default (state = initialState, action) => {
   case LOAD_BLOG_SUCCESS: {
       return {
           ...state,
-          blog: action.data,
+          blogs: action.data,
           loading: false
       }
   }

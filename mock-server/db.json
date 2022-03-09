@@ -1,88 +1,90 @@
 {
-    "blogs": [
-        {
-            "title": "Edmunds: Hyundai Ioniq 5 vs. Tesla Model Y",
-            "description": "Consumer appetites for small SUVs seem insatiable, and as electrification reaches every corner of the automotive landscape, a spotlight has appeared over compact EV SUVs. For two years, the Tesla Model Y has led this burgeoning niche with longer range estimat…",
-            "image" : "https://s.hdnux.com/photos/01/24/44/77/22171592/3/rawImage.jpg",
-            "url" : "https://www.seattlepi.com/living/article/Edmunds-Hyundai-Ioniq-5-vs-Tesla-Model-Y-16988341.php", 
-            "section" : "Trending"
-        },
-        {
-            "title": "Apple discontinues the 27-inch iMac",
-            "description": "You're out of luck if you were hoping for a larger, brawnier counterpart to the M1 iMac. Apple has discontinued the 27-inch iMac, leaving last year's 24-inch M1 model as the only all-in-one in the lineup. If you want to buy a higher-end (but relatively compac…",
-            "url" : "https://www.engadget.com/apple-discontinues-27-inch-imac-195702069.html",
-            "image" : "https://s.yimg.com/os/creatr-uploaded-images/2022-03/227d4f50-9f15-11ec-bcf3-2e91fe87e6e6",
-            "section" : "Trending"
-        },
-        {
-            "title": "Here’s everything Apple announced at its ‘Peek Performance’ event",
-            "description": "On Tuesday, Apple held its first event of 2022. What initially seemed like it would be a low-key affair turned into something a bit more exciting. Yes, Apple updated the iPhone SE and iPad Air, but it also had a new Mac to show off and a matching display. Her…",
-            "url" : "https://www.engadget.com/apple-peek-performance-supercut-211452779.html",
-            "image" : "https://s.yimg.com/os/creatr-uploaded-images/2022-03/58b25770-9f22-11ec-8bf1-ebaa4da4b9f9",
-            "section" : "Trending"
-        },
-        {
-            "title": "Apple turns monitor height adjustment into a $400 upsell",
-            "description": "Apple unveiled a new standalone monitor—the $1599 Studio Display\r\n—that includes your choice of either a tilt-adjustable stand or a VESA wall mount adaptor. But for $400 more, you can purchase a fancier tilt and height-adjustable version of that stand. In the…",
-            "url" : "https://www.engadget.com/apples-400-height-adjustable-studio-display-stand-is-a-relative-bargain-222714407.html",
-            "image" : "https://s.yimg.com/os/creatr-uploaded-images/2022-03/1aeda790-9f2d-11ec-a2bf-d1f5112cb636",
-            "section" : "Most Popular"
-        },
-        {
-            "title": "Bitcoin spikes 8% after apparent release of Yellen statement on Biden's crypto executive order - CNB",
-            "description": "The U.S. Treasury published then took down a statement on an unreleased executive order on digital assets which appeared supportive of cryptocurrencies.",
-            "url" : "https://www.cnbc.com/2022/03/09/bitcoin-btc-jumps-after-treasury-statement-on-crypto-executive-order.html",
-            "image" : "https://image.cnbcfm.com/api/v1/image/106963876-1634825244800-gettyimages-1236011917-AA_21102021_496570.jpeg?v=1638714731",
-            "section" : "Most Popular"
-        },
-        {
-            "title": "Costco, Sam's Club battle for gas dominance - Fox Business",
-            "description": "The national average for a gallon of regular gasoline reached $4.173 as of Tuesday, climbing 50 cents from a week earlier, according to AAA data.",
-            "url" : "https://www.foxbusiness.com/lifestyle/costco-sams-battle-for-gas-dominance",
-            "image" : "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2022/03/0/0/Costco-Sams-Club-Gas-Station.jpg?ve=1&tl=1",
-            "section" : "Most Popular"
-        },
-        {
-            "title": "Endurance, Ernest Shackleton's Lost Ship, Found After 107 Years...",
-            "description": "Endurance, Ernest Shackleton's Lost Ship, Found After 107 Years...\r\n\n \n \n \n (First column, 15th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:One of History's Great Wrecks...",
-            "url" : "https://www.wsj.com/articles/endurance-ernest-shackletons-lost-ship-found-after-107-years-11646821921",
-            "image" : "https://images.wsj.net/im-501053/social",
-            "section" : "Most Viewed"
-        },
-        {
-            "title": "Venezuela Frees American After Biden Team Visits President Maduro - The Wall Street Journal",
-            "description": "<ol><li>Venezuela Frees American After Biden Team Visits President Maduro  The Wall Street Journal\r\n</li><li>Biden turns to countries he once sought to avoid to find help shutting off Russia's oil money  CNN\r\n</li><li>EXCLUSIVE Washington pins easing of Venez…",
-            "url" : "https://www.wsj.com/articles/venezuela-agrees-to-restart-negotiations-with-u-s-backed-opposition-11646756236",
-            "image" : "https://images.wsj.net/im-500351/social",
-            "section" : "Most Viewed"
-        },
-        {
-            "title": "Elon Musk, King of Electric Cars, Calls for More Oil | Opinion",
-            "description": "Putin's unpredictable Ukraine gambit has offered a wake-up call to the wisdom of an all-hands-on-deck approach to energy.",
-            "url" : "https://www.newsweek.com/elon-musk-king-electric-cars-calls-more-oil-opinion-1685654",
-            "image" : "https://d.newsweek.com/en/full/1996894/elon-musk-attends-time-person.jpg",
-            "section" : "Most Viewed"
-        },
-        {
-            "title": "UK expands Online Safety Bill to cover scam ads and eyes wider reforms",
-            "description": "The UK government has again announced an extension to the scope of the draft Online Safety Bill — this time bringing scam ads into scope following pressure from campaigners. In parallel, it has also launched a consultation on strengthening existing regulation…",
-            "url" : "https://techcrunch.com/2022/03/09/online-safety-bill-scam-ads/",
-            "image" : "https://techcrunch.com/wp-content/uploads/2020/06/GettyImages-1018876418.jpg?w=600",
-            "section" : "Your Choice"
-        },
-        {
-            "title": "Russian Nickel Compounds Pain For Carmakers Contending With Chip Shortages",
-            "description": "Putin’s invasion of Ukraine is an unexpected complication for efforts to wean motorists off gasoline and diesel fuel and switch to electric vehicles.",
-            "url" : "https://www.forbes.com/sites/alanohnsman/2022/03/09/russian-nickel-compounds-pain-for-carmakers-contending-with-chip-shortages/",
-            "image" : "https://imageio.forbes.com/specials-images/imageserve/62280c45394ed4dee5dcafbb/0x0.jpg?format=jpg&width=1200&fit=bounds",
-            "section" : "Your Choice"
-        },
-        {
-            "title": "Biden Enlists Business Executives to Push Bill Countering China Tech Threat - The Wall Street Journal",
-            "description": "House, Senate have competing versions of measure that would put $52 billion toward boosting U.S. chip production",
-            "url" : "https://www.wsj.com/articles/biden-enlists-business-executives-to-push-bill-countering-china-tech-threat-11646780400",
-            "image" : "https://images.wsj.net/im-500779/social",
-            "section" : "Your Choice"
+    "blogs": {
+            "blogs": [
+                {
+                    "title": "Edmunds: Hyundai Ioniq 5 vs. Tesla Model Y",
+                    "description": "Consumer appetites for small SUVs seem insatiable, and as electrification reaches every corner of the automotive landscape, a spotlight has appeared over compact EV SUVs. For two years, the Tesla Model Y has led this burgeoning niche with longer range estimat…",
+                    "image" : "https://s.hdnux.com/photos/01/24/44/77/22171592/3/rawImage.jpg",
+                    "url" : "https://www.seattlepi.com/living/article/Edmunds-Hyundai-Ioniq-5-vs-Tesla-Model-Y-16988341.php", 
+                    "section" : "Trending"
+                },
+                {
+                    "title": "Apple discontinues the 27-inch iMac",
+                    "description": "You're out of luck if you were hoping for a larger, brawnier counterpart to the M1 iMac. Apple has discontinued the 27-inch iMac, leaving last year's 24-inch M1 model as the only all-in-one in the lineup. If you want to buy a higher-end (but relatively compac…",
+                    "url" : "https://www.engadget.com/apple-discontinues-27-inch-imac-195702069.html",
+                    "image" : "https://s.yimg.com/os/creatr-uploaded-images/2022-03/227d4f50-9f15-11ec-bcf3-2e91fe87e6e6",
+                    "section" : "Trending"
+                },
+                {
+                    "title": "Here’s everything Apple announced at its ‘Peek Performance’ event",
+                    "description": "On Tuesday, Apple held its first event of 2022. What initially seemed like it would be a low-key affair turned into something a bit more exciting. Yes, Apple updated the iPhone SE and iPad Air, but it also had a new Mac to show off and a matching display. Her…",
+                    "url" : "https://www.engadget.com/apple-peek-performance-supercut-211452779.html",
+                    "image" : "https://s.yimg.com/os/creatr-uploaded-images/2022-03/58b25770-9f22-11ec-8bf1-ebaa4da4b9f9",
+                    "section" : "Trending"
+                },
+                {
+                    "title": "Apple turns monitor height adjustment into a $400 upsell",
+                    "description": "Apple unveiled a new standalone monitor—the $1599 Studio Display\r\n—that includes your choice of either a tilt-adjustable stand or a VESA wall mount adaptor. But for $400 more, you can purchase a fancier tilt and height-adjustable version of that stand. In the…",
+                    "url" : "https://www.engadget.com/apples-400-height-adjustable-studio-display-stand-is-a-relative-bargain-222714407.html",
+                    "image" : "https://s.yimg.com/os/creatr-uploaded-images/2022-03/1aeda790-9f2d-11ec-a2bf-d1f5112cb636",
+                    "section" : "Most Popular"
+                },
+                {
+                    "title": "Bitcoin spikes 8% after apparent release of Yellen statement on Biden's crypto executive order - CNB",
+                    "description": "The U.S. Treasury published then took down a statement on an unreleased executive order on digital assets which appeared supportive of cryptocurrencies.",
+                    "url" : "https://www.cnbc.com/2022/03/09/bitcoin-btc-jumps-after-treasury-statement-on-crypto-executive-order.html",
+                    "image" : "https://image.cnbcfm.com/api/v1/image/106963876-1634825244800-gettyimages-1236011917-AA_21102021_496570.jpeg?v=1638714731",
+                    "section" : "Most Popular"
+                },
+                {
+                    "title": "Costco, Sam's Club battle for gas dominance - Fox Business",
+                    "description": "The national average for a gallon of regular gasoline reached $4.173 as of Tuesday, climbing 50 cents from a week earlier, according to AAA data.",
+                    "url" : "https://www.foxbusiness.com/lifestyle/costco-sams-battle-for-gas-dominance",
+                    "image" : "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2022/03/0/0/Costco-Sams-Club-Gas-Station.jpg?ve=1&tl=1",
+                    "section" : "Most Popular"
+                },
+                {
+                    "title": "Endurance, Ernest Shackleton's Lost Ship, Found After 107 Years...",
+                    "description": "Endurance, Ernest Shackleton's Lost Ship, Found After 107 Years...\r\n\n \n \n \n (First column, 15th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:One of History's Great Wrecks...",
+                    "url" : "https://www.wsj.com/articles/endurance-ernest-shackletons-lost-ship-found-after-107-years-11646821921",
+                    "image" : "https://images.wsj.net/im-501053/social",
+                    "section" : "Most Viewed"
+                },
+                {
+                    "title": "Venezuela Frees American After Biden Team Visits President Maduro - The Wall Street Journal",
+                    "description": "<ol><li>Venezuela Frees American After Biden Team Visits President Maduro  The Wall Street Journal\r\n</li><li>Biden turns to countries he once sought to avoid to find help shutting off Russia's oil money  CNN\r\n</li><li>EXCLUSIVE Washington pins easing of Venez…",
+                    "url" : "https://www.wsj.com/articles/venezuela-agrees-to-restart-negotiations-with-u-s-backed-opposition-11646756236",
+                    "image" : "https://images.wsj.net/im-500351/social",
+                    "section" : "Most Viewed"
+                },
+                {
+                    "title": "Elon Musk, King of Electric Cars, Calls for More Oil | Opinion",
+                    "description": "Putin's unpredictable Ukraine gambit has offered a wake-up call to the wisdom of an all-hands-on-deck approach to energy.",
+                    "url" : "https://www.newsweek.com/elon-musk-king-electric-cars-calls-more-oil-opinion-1685654",
+                    "image" : "https://d.newsweek.com/en/full/1996894/elon-musk-attends-time-person.jpg",
+                    "section" : "Most Viewed"
+                },
+                {
+                    "title": "UK expands Online Safety Bill to cover scam ads and eyes wider reforms",
+                    "description": "The UK government has again announced an extension to the scope of the draft Online Safety Bill — this time bringing scam ads into scope following pressure from campaigners. In parallel, it has also launched a consultation on strengthening existing regulation…",
+                    "url" : "https://techcrunch.com/2022/03/09/online-safety-bill-scam-ads/",
+                    "image" : "https://techcrunch.com/wp-content/uploads/2020/06/GettyImages-1018876418.jpg?w=600",
+                    "section" : "Your Choice"
+                },
+                {
+                    "title": "Russian Nickel Compounds Pain For Carmakers Contending With Chip Shortages",
+                    "description": "Putin’s invasion of Ukraine is an unexpected complication for efforts to wean motorists off gasoline and diesel fuel and switch to electric vehicles.",
+                    "url" : "https://www.forbes.com/sites/alanohnsman/2022/03/09/russian-nickel-compounds-pain-for-carmakers-contending-with-chip-shortages/",
+                    "image" : "https://imageio.forbes.com/specials-images/imageserve/62280c45394ed4dee5dcafbb/0x0.jpg?format=jpg&width=1200&fit=bounds",
+                    "section" : "Your Choice"
+                },
+                {
+                    "title": "Biden Enlists Business Executives to Push Bill Countering China Tech Threat - The Wall Street Journal",
+                    "description": "House, Senate have competing versions of measure that would put $52 billion toward boosting U.S. chip production",
+                    "url" : "https://www.wsj.com/articles/biden-enlists-business-executives-to-push-bill-countering-china-tech-threat-11646780400",
+                    "image" : "https://images.wsj.net/im-500779/social",
+                    "section" : "Your Choice"
+                }
+            ]
         }
-    ]
   }
