@@ -6,3 +6,9 @@ h2 {
     margin: 0;
   }
  
+ul {
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: space-around;
+}

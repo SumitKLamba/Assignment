@@ -4,8 +4,6 @@ import onHeaderClick from './onHeaderClick';
 import React, { useState, useEffect } from 'react';
 
 function App() {
-  const [color, setColor] = useState('white');
-
   const listenScrollEvent = () => {
     
   };
@@ -21,7 +19,7 @@ function App() {
           {/* <li><a href="#popular">Popular</a></li> We could have done something like this also.
               The param inside onHeaderClick function should match the name of the id
           */}
-          <li><button onClick={() => onHeaderClick("trending")} style={{color:color}}>Trending</button></li>
+          <li><button onClick={() => onHeaderClick("trending")}>Trending</button></li>
           <li><button onClick={() => onHeaderClick("popular")}>Most Popular</button></li>
           <li><button onClick={() => onHeaderClick("viewed")}>Most Viewed</button></li>
           <li><button onClick={() => onHeaderClick("choice")}>Your Choice</button></li>
