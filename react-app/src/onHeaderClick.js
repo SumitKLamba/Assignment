@@ -6,8 +6,9 @@ export default function onHeaderClick(id) {
         screen when we click on the button,
         then window.scrollBy scrolls us to that position
     */
-    let object = document.getElementById(id).getBoundingClientRect();
-    let tillTitle = object.top - object.height;
+    let header = document.getElementById('header').getBoundingClientRect();
+    let section = document.getElementById(id).getBoundingClientRect();
+    let tillTitle = section.top - header.height;
     return window.scrollBy({
         top: tillTitle,
         behavior: "smooth"

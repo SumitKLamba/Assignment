@@ -13,19 +13,39 @@ ul {
   justify-content: space-around;
 }
 
+.header li {
+  display: flex;
+  align-items: center;
+}
+
 .header {
   background-color: orange;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   position: sticky;
   top: 0;
   left: 0;
-  height: 3.5em;
 }
 
 button {
-  border: 0ch;
+  border: 0px;
   background-color: transparent;
   color: white;
   font-weight: 500;
   font-size: medium;
+}
+
+button:hover {
+  border: 2px;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  font-size: medium;
+}
+
+@media screen and (max-width: 1104px) {
+  .header li {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
 }

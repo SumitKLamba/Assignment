@@ -4,7 +4,7 @@
     "description": "Mock API Server",
     "main": "app.js",
     "scripts": {
-      "server": "nodemon app.js"
+      "start": "nodemon app.js"
     },
     "author": "Valerii Tereshchenko",
     "license": "MIT",
