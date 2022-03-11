@@ -2,8 +2,19 @@ import './App.css';
 import Sections from './sections/Sections';
 import onHeaderClick from './onHeaderClick';
 import React, { useEffect, useRef, useState } from 'react';
+import { useSelector, useDispatch } from "react-redux";
+import { loadBlog } from "./redux/reducers/blogs";
+import { TailSpin } from "react-loader-spinner";
 
 function App() {
+  const dispatch = useDispatch();
+  const blogs = useSelector(state => state.blogs.blogs);
+  const loading = useSelector(state => state.blogs.loading);
+  const error = useSelector(state => state.blogs.error);
+
+  useEffect(()=>{
+    dispatch(loadBlog());
+  },[dispatch]);
 
   // const ref = useRef(null);
   // const [element, setElement] = useState(null);
@@ -49,10 +60,15 @@ function App() {
         </header>
       </div>
       <div className="sections">
-          <Sections id="trending" title="Trending" /> 
-          <Sections id="popular" title="Most Popular" />
-          <Sections id="viewed" title="Most Viewed" />
-          <Sections id="choice" title="Your Choice" />
+        {loading ? <div className='loader'><TailSpin height="100" width="100" color='grey' aria-Label='loading'/></div> : 
+          error ? <p>{error}</p> : blogs.length === 0 ? <p>No blogs available!</p> : 
+          <>
+            <Sections id="trending" title="Trending" blogs={blogs}/> 
+            <Sections id="popular" title="Most Popular" blogs={blogs}/>
+            <Sections id="viewed" title="Most Viewed" blogs={blogs}/>
+            <Sections id="choice" title="Your Choice" blogs={blogs}/>
+          </>
+        }
       </div>
     </div>
   );

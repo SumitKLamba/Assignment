@@ -1,4 +1,5 @@
 import './Blogs.css';
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 export default function Blogs(props) {
   const {blog} = props;
@@ -10,8 +11,10 @@ export default function Blogs(props) {
             <div className="text-overlay">
                 <h3>{blog.title}</h3>
                 <div>
-                <p>{blog.description}...</p>
-                <a href={blog.url}><u>read more</u></a>
+                  <p>{blog.description}...</p>
+                  <a href={blog.url}>
+                    <BsFillArrowRightCircleFill />
+                  </a>
                 </div>
             </div>
         </section>

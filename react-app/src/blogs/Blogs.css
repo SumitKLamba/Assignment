@@ -1,22 +1,18 @@
 .card {
-    border-style: solid;
-    border-color: orange;
-    margin: 0;
-    width: 30vw;
-    height: 70vh;
+    border-radius: 12px;
+    background-color: #B8FFF9;
+    box-shadow: 0px 0px 41px -15px rgba(0,0,0,0.36);
+    width: 22vw;
+    height: 75vh;
 }
 
 h3 {
-    display: block;
-    background-color: white;
+    display: inline;
     padding-top: 0.5em;
     padding-left: 0.4em;
-    padding-bottom: 0;
-    margin: 0;
     text-overflow: ellipsis;
-    word-wrap: break-word;
+    word-wrap: unset;
     overflow: hidden;
-    max-height: 15vh;
   }
 
 li {
@@ -24,8 +20,8 @@ li {
 }
 
 p {
-    display: block;
-    height: 16vh;
+    display: inline;
+    height: 20vh;
     flex-wrap: wrap;
     margin: 0.4em;
     font-size: 16px;
@@ -33,27 +29,24 @@ p {
     word-wrap: break-word;
     overflow: hidden;
     max-height: 15vh;
-    line-height: 3vh;
 }    
 
 img {
-    width: 30vw;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 22vw;
     height: 40vh;
     object-fit: fill;
 }
 
 @media screen and (max-width: 767px) {
     .card {
-        border-style: solid;
-        border-color: orange;
-        margin: 0;
         width: 80vw;
         height: 70vh;
     }
 
     p {
         max-height: 15vh;
-        line-height: 3vh;
     }  
 
     
@@ -72,7 +65,6 @@ img {
 
     p {
         max-height: 15vh;
-
     }  
 
     img {

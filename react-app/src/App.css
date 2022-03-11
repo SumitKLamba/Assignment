@@ -1,12 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: left;
   margin: 0;
 }
 
-ul {
+.sections {
+  align-items: center;
+}
+
+.header ul {
   display: flex;
-  margin: 0;
-  padding: 0;
   list-style: none;
   flex-direction: row;
   align-items: center;
@@ -19,7 +26,7 @@ ul {
 }
 
 .header {
-  background-color: orange;
+  background-color: #42C2FF;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   position: sticky;
   top: 0;
@@ -37,15 +44,14 @@ button {
 button:hover {
   border: 2px;
   background-color: transparent;
-  color: black;
+  color: #85F4FF;
   font-weight: bold;
   font-size: medium;
 }
 
 @media screen and (max-width: 1104px) {
   .header li {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+    flex-direction: row;
+    width: 40vh;
   }
 }
