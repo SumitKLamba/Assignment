@@ -8,6 +8,7 @@ import { TailSpin } from "react-loader-spinner";
 import { ReactComponent as Empty } from "./empty.svg";
 
 function App() {
+  //creating ref to scroll to the sections
   const childRefs = useMemo(() => sections.map(() => React.createRef()), [sections.join(",")]);
 
   const dispatch = useDispatch();
@@ -60,6 +61,8 @@ function App() {
         </header>
       </div>
       <div className="sections">
+        {/* showing loader if the blogs are loading, error if loading finishes with an error, 
+        an empty.svg with the text if no blogs and sending the blogs to the blogList if everything's okay */}
         {loading ? (
           <div className="loader">
             <TailSpin height="100" width="100" color="skyblue" />

@@ -36,8 +36,7 @@ li {
   object-fit: fill;
 }
 
-@media screen and (max-width: 767px) {
-  p {
-    max-height: 15vh;
-  }
+.read-more {
+  display: flex;
+  justify-content: flex-end;
 }
