@@ -9,8 +9,23 @@ h2 {
 .section ul {
   margin: 0;
   padding: 0;
-  display: flex;
+  display: grid;
   list-style: none;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.noBlogsSection {
+  display: block;
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .section ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 767px) {

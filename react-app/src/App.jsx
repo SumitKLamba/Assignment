@@ -30,7 +30,7 @@ function App() {
       <li>
         <button
           onClick={() => {
-            childRefs[i].current.scrollIntoView({ behavior: "smooth", block: "center" });
+            childRefs[i].current.scrollIntoView({ behavior: "smooth" });
           }}
         >
           {sections[i][1]}
