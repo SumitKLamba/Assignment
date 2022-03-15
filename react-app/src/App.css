@@ -1,11 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-.App {
   text-align: left;
-  margin: 0;
 }
 
 .header {
@@ -27,6 +23,18 @@
   justify-content: space-around;
 }
 
+@media screen and (max-width: 992px) {
+  li {
+    display: block;
+  }
+
+  .header ul {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 button {
   border: 0px;
   background-color: transparent;
@@ -43,14 +51,25 @@ button:hover {
   font-size: medium;
 }
 
-@media screen and (max-width: 992px) {
-  li {
-    display: block;
-  }
+.loader {
+  height: calc(100vh - 51px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .header ul {
-    display: grid;
-    text-align: center;
-    grid-template-columns: repeat(2, 1fr);
-  }
+.noBlogs {
+  height: calc(100vh - 51px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+}
+
+.empty {
+  height: 20vw;
+  width: 20vw;
 }

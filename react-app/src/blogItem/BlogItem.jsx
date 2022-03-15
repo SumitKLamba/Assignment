@@ -1,7 +1,7 @@
-import "./Blogs.css";
+import "./BlogItem.css";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
-export default function Blogs(props) {
+export default function BlogItem(props) {
   const { blog } = props;
 
   return (
@@ -11,7 +11,7 @@ export default function Blogs(props) {
         <div className="text-overlay">
           <h3>{blog.title}</h3>
           <div>
-            <p>{blog.description}...</p>
+            <p>{blog.description.substring(0, 200)}...</p>
           </div>
           <div style={{ textAlign: "right" }}>
             <a href={blog.url} style={{ textDecoration: "none" }}>

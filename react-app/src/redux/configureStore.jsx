@@ -4,7 +4,7 @@ import blogsReducer from "./reducers/blogs";
 import { rootSaga } from "./sagas/rootSaga";
 
 const reducer = combineReducers({
-  blogs: blogsReducer,
+  blogsReducer: blogsReducer,
 });
 
 const sagaMiddleware = createSagaMiddleware();

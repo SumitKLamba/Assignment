@@ -1,5 +1,5 @@
 import { call, put } from "redux-saga/effects";
-import { LOAD_BLOG_ERROR, LOAD_BLOG_SUCCESS } from '../../reducers/blogs'
+import { LOAD_BLOG_ERROR, LOAD_BLOG_SUCCESS } from "../../reducers/blogs";
 import { requestGetBlog } from "../requests/index";
 
 export function* handleGetBlog() {
@@ -7,12 +7,12 @@ export function* handleGetBlog() {
     const response = yield call(requestGetBlog);
     yield put({
       type: LOAD_BLOG_SUCCESS,
-      data: response.data.blogs
+      data: response.data,
     });
   } catch (error) {
     yield put({
       type: LOAD_BLOG_ERROR,
-      error: error
+      error: error,
     });
   }
 }
