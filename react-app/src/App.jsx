@@ -68,7 +68,7 @@ function App() {
             <TailSpin height="100" width="100" color="skyblue" />
           </div>
         ) : error ? (
-          <p>{error}</p>
+          <div className="noBlogs">{error.message}</div>
         ) : JSON.stringify(data) === "{}" ? (
           <div className="noBlogs">
             <Empty className="empty" />
